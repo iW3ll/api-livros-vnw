@@ -1,0 +1,34 @@
+#  Necessário da extensão REST CLIENT para funcionar
+# Quando tiver instalada acima da HTTP link aparecerá `Send Request` só clicar com o mouse pressionando a tecla CTRL.
+
+GET http://127.0.0.1:5000
+Content-Type: application/json
+
+### 
+POST http://127.0.0.1:5000/doar
+Content-Type: application/json
+
+{
+  "title": "Dom Casmurro",
+  "category": "Romance",
+  "author": "Machado de Assis",
+  "image_url": "https://m.media-amazon.com/images/I/61Z2bMhGicL.jpg"
+}
+
+### 
+GET http://127.0.0.1:5000/list-livros
+
+### 
+PUT http://127.0.0.1:5000/livros/12
+Content-Type: application/json
+
+{
+  "title": "Dom Casmurro",
+  "category": "Romance",
+  "author": "Machado de Assis",
+  "image_url": "https://m.media-amazon.com/images/I/61Z2bMhGicL.jpg"
+}
+
+
+### 
+DELETE http://127.0.0.1:5000/livros/12
