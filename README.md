@@ -121,6 +121,4 @@ python app.py
 ```
 A API estará disponível em: `http://127.0.0.1:5000`
 
-## 📌 Autor
-**Tatyane Gonçalves** - [LinkedIn](https://www.linkedin.com/in/tatyanegoncalves/) - [GitHub](https://github.com/tatyanepgoncalves)
 
